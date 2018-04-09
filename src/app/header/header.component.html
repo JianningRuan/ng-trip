@@ -1,0 +1,11 @@
+<div class="header flex f-align-center">
+  <a class="header-btn iconfont icon-nav" (click)="showOrHideNav()"></a>
+  <h1 class="flex1">旅游</h1>
+  <a class="header-btn iconfont icon-search"></a>
+</div>
+<div class="nav-mask" *ngIf="isShowNav" (click)="showOrHideNav()"></div>
+<div class="left-nav flex flex-c f-align-center" [class.active]="isShowNav">
+  <a class="l-nav-item" routerLink="/main/hot">热门</a>
+  <a class="l-nav-item" routerLink="/main/draft">草稿箱</a>
+  <a class="l-nav-item" routerLink="/main/setting">设置</a>
+</div>
