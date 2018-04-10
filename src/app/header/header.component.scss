@@ -4,6 +4,11 @@
   height: $headHeight;
   background: $mainColor;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
   .header-btn {
     width: $headHeight;
     height: $headHeight;

@@ -12,3 +12,7 @@ ul { list-style: none;}
 .f-w-wrap { flex-wrap: wrap;}
 .f-justify-center { justify-content: center;}
 .f-align-center { align-items: center;}
+
+.overflow-auto {
+  overflow: scroll;
+}

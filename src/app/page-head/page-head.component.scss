@@ -1,0 +1,13 @@
+@import "./../../assets/style/variable";
+
+.page-head {
+  height: $headHeight;
+
+  .head-btn {
+    height: $headHeight;
+    width: $headHeight;
+    text-align: center;
+    line-height: $headHeight;
+    font-size: 20px;
+  }
+}
