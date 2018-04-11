@@ -12,6 +12,7 @@ import { SettingComponent } from './setting/setting.component';
 import { HotComponent } from './hot/hot.component';
 import { MainComponent } from './main/main.component';
 import { PageHeadComponent } from './page-head/page-head.component';
+import { TripDetailComponent } from './trip-detail/trip-detail.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PageHeadComponent } from './page-head/page-head.component';
     SettingComponent,
     HotComponent,
     MainComponent,
-    PageHeadComponent
+    PageHeadComponent,
+    TripDetailComponent
   ],
   imports: [
     BrowserModule,

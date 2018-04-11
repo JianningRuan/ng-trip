@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -13,4 +13,10 @@ export class ListComponent implements OnInit {
   }
 
   @Input() hotTrip: Array<any>;
+  @Output() clickTrip = new EventEmitter();
+
+  clickIt(val) {
+    console.log(val);
+    this.clickTrip.emit(val.data[0].id);
+  }
 }

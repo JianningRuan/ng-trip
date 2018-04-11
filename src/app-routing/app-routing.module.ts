@@ -7,6 +7,8 @@ import { HotComponent } from './../app/hot/hot.component'
 import { DraftComponent } from './../app/draft/draft.component'
 import { SettingComponent } from './../app/setting/setting.component'
 
+import { TripDetailComponent } from './../app/trip-detail/trip-detail.component'
+
 
 const routes: Routes = [
   {path: '', redirectTo: 'main', pathMatch: 'full'},
@@ -16,7 +18,7 @@ const routes: Routes = [
     {path: 'draft', component: DraftComponent},
     {path: 'setting', component: SettingComponent}
   ]},
-
+  {path: 'tripDetail', component: TripDetailComponent}
 ];
 
 @NgModule({

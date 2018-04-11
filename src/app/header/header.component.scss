@@ -1,5 +1,7 @@
 @import "./../../assets/style/variable";
-
+:host{
+  display:block;
+}
 .header {
   height: $headHeight;
   background: $mainColor;
